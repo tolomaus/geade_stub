@@ -1,5 +1,8 @@
 GeadeStub::Application.routes.draw do
-  get "pages/home"
+  resources :pcrs
+  resources :apps
+  resources :releases
+
   root :to => 'pages#home' 
 
   # The priority is based upon order of creation:
