@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe AppsController do
+  render_views
 
   describe "GET 'new'" do
     it "should be successful" do
@@ -18,21 +19,21 @@ describe AppsController do
 
   describe "GET 'update'" do
     it "should be successful" do
-      get 'update'
+      get 'update', :id => @app
       response.should be_success
     end
   end
 
   describe "GET 'edit'" do
     it "should be successful" do
-      get 'edit'
+      get 'edit', :id => @app
       response.should be_success
     end
   end
 
   describe "GET 'destroy'" do
     it "should be successful" do
-      get 'destroy'
+      get 'destroy', :id => @app
       response.should be_success
     end
   end
@@ -46,7 +47,7 @@ describe AppsController do
 
   describe "GET 'show'" do
     it "should be successful" do
-      get 'show'
+      get 'show', :id => @app
       response.should be_success
     end
   end

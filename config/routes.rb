@@ -3,6 +3,8 @@ GeadeStub::Application.routes.draw do
   resources :apps
   resources :releases
 
+  get "pcrs/update"
+
   root :to => 'pages#home' 
 
   # The priority is based upon order of creation:

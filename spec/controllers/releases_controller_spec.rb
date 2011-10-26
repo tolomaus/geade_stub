@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe ReleasesController do
+  render_views
 
   describe "GET 'new'" do
     it "should be successful" do
@@ -16,23 +17,23 @@ describe ReleasesController do
     end
   end
 
-  describe "GET 'update'" do
+  describe "POST 'update'" do
     it "should be successful" do
-      get 'update'
+      post 'update', :id => @release
       response.should be_success
     end
   end
 
   describe "GET 'edit'" do
     it "should be successful" do
-      get 'edit'
+      get 'edit', :id => @release
       response.should be_success
     end
   end
 
   describe "GET 'destroy'" do
     it "should be successful" do
-      get 'destroy'
+      get 'destroy', :id => @release
       response.should be_success
     end
   end
@@ -46,7 +47,7 @@ describe ReleasesController do
 
   describe "GET 'show'" do
     it "should be successful" do
-      get 'show'
+      get 'show', :id => @release
       response.should be_success
     end
   end
