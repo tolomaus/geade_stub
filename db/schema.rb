@@ -11,16 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111025205236) do
+ActiveRecord::Schema.define(:version => 20111029143836) do
 
   create_table "apps", :force => true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "code"
   end
 
   create_table "pcrs", :force => true do |t|
-    t.string   "pcr_id"
+    t.string   "code"
     t.string   "summary"
     t.string   "description"
     t.integer  "app_id",      :limit => 255
@@ -35,6 +36,7 @@ ActiveRecord::Schema.define(:version => 20111025205236) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "code"
   end
 
 end

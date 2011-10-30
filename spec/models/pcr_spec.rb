@@ -10,7 +10,7 @@ describe Pcr do
   end
 
   it "is not valid without a pcr id" do
-    @pcr.pcr_id = nil
+    @pcr.code = nil
     @pcr.should_not be_valid
   end
 
