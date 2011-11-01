@@ -1,2 +1,27 @@
-<h1>Pcrs#index</h1>
-<p>Find me in app/views/pcrs/index.html.erb</p>
+<h1>Listing PCRs</h1>
+
+<table>
+  <tr>
+    <th>Code</th>
+    <th>Summary</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @pcrs.each do |pcr| %>
+  <tr>
+    <td><%= pcr.code %></td>
+    <td><%= pcr.summary %></td>
+    <td><%= pcr.description %></td>
+    <td><%= link_to 'Show', pcr %></td>
+    <td><%= link_to 'Edit', edit_pcr_path(pcr) %></td>
+    <td><%= link_to 'Destroy', pcr, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New PCR', new_pcr_path %>

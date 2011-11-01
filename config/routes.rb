@@ -1,9 +1,5 @@
 GeadeStub::Application.routes.draw do
   resources :pcrs
-  resources :apps
-  resources :releases
-
-  get "pcrs/update"
 
   root :to => 'pages#home' 
 

@@ -29,6 +29,16 @@ describe Pcr do
     @pcr.should_not be_valid
   end
 
+  it "is not valid without a status" do
+    @pcr.status_id = nil
+    @pcr.should_not be_valid
+  end
+
+  it "is not valid without a severity" do
+    @pcr.severity_id = nil
+    @pcr.should_not be_valid
+  end
+
   it "is not valid with a non-numeric app id" do
     @pcr.app_id = "abc"
     @pcr.should_not be_valid

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111029143836) do
+ActiveRecord::Schema.define(:version => 20111101120456) do
 
   create_table "apps", :force => true do |t|
     t.string   "name"
@@ -26,8 +26,8 @@ ActiveRecord::Schema.define(:version => 20111029143836) do
     t.string   "description"
     t.integer  "app_id",      :limit => 255
     t.integer  "release_id",  :limit => 255
-    t.string   "status"
-    t.string   "severity"
+    t.integer  "status_id",   :limit => 255
+    t.integer  "severity_id", :limit => 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -37,6 +37,20 @@ ActiveRecord::Schema.define(:version => 20111029143836) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "code"
+  end
+
+  create_table "severities", :force => true do |t|
+    t.string   "code"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "statuses", :force => true do |t|
+    t.string   "code"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

@@ -1,2 +1,20 @@
-<h1>Pcrs#show</h1>
-<p>Find me in app/views/pcrs/show.html.erb</p>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Code:</b>
+  <%= @pcr.code %>
+</p>
+
+<p>
+  <b>Summary:</b>
+  <%= @pcr.summary %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @pcr.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_pcr_path(@pcr) %> |
+<%= link_to 'Back', pcrs_path %>
