@@ -7,4 +7,9 @@ class Pcr < ActiveRecord::Base
   validates :release_id, :presence => true, :numericality => { :only_integer => true }
   validates :status_id, :presence => true, :numericality => { :only_integer => true }
   validates :severity_id, :presence => true, :numericality => { :only_integer => true }
+
+  belongs_to :app
+  belongs_to :release
+  belongs_to :status
+  belongs_to :severity
 end

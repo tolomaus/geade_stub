@@ -5,11 +5,16 @@ class PcrsController < ApplicationController
 
   def show
     @pcr = Pcr.find(params[:id])
+
   end
 
   def new
     @pcr=Pcr.new
-    @title="New PCR"
+
+    @apps = App.all
+    @releases = Release.all
+    @statuses = Status.all
+    @severities = Severity.all
   end
 
   def create
@@ -23,6 +28,11 @@ class PcrsController < ApplicationController
 
   def edit
     @pcr = Pcr.find(params[:id])
+
+    @apps = App.all
+    @releases = Release.all
+    @statuses = Status.all
+    @severities = Severity.all
   end
 
   def update
@@ -39,5 +49,4 @@ class PcrsController < ApplicationController
     @pcr.destroy
     redirect_to pcrs_path
   end
-
 end

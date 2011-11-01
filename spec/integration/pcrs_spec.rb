@@ -27,6 +27,7 @@ describe "Pcrs" do
       fill_in('Code', :with => @attr[:code])
       fill_in('Summary', :with => @attr[:summary])
       fill_in('Description', :with => @attr[:description])
+      fill_in('App', :with => @attr[:app_id])
 
       expect{
         click_on("Create Pcr")
