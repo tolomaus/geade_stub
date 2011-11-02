@@ -24,11 +24,11 @@
     <%= f.text_field :description %>
   </div>
   <div class="field">
-    <%= f.label :app %><br />
+    <%= f.label :app_id %><br />
     <%= f.collection_select(:app_id, @apps, :id, :name, :prompt => 'Select') %>
   </div>
   <div class="field">
-    <%= f.label :release %><br />
+    <%= f.label :release_id %><br />
     <%= f.collection_select(:release_id, @releases, :id, :name, :prompt => 'Select') %>
   </div>
   <div class="field">

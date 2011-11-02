@@ -11,10 +11,7 @@ class PcrsController < ApplicationController
   def new
     @pcr=Pcr.new
 
-    @apps = App.all
-    @releases = Release.all
-    @statuses = Status.all
-    @severities = Severity.all
+    load_collections
   end
 
   def create
@@ -22,6 +19,7 @@ class PcrsController < ApplicationController
     if @pcr.save
       redirect_to @pcr, :flash => { :success => "PCR was successfully created." }
     else
+      load_collections
       render 'new'
     end
   end
@@ -29,10 +27,7 @@ class PcrsController < ApplicationController
   def edit
     @pcr = Pcr.find(params[:id])
 
-    @apps = App.all
-    @releases = Release.all
-    @statuses = Status.all
-    @severities = Severity.all
+    load_collections()
   end
 
   def update
@@ -40,6 +35,7 @@ class PcrsController < ApplicationController
     if @pcr.update_attributes(params[:pcr])
       redirect_to @pcr, :flash => { :success => "PCR was successfully updated." }
     else
+      load_collections
       render 'edit'
     end
   end
@@ -48,5 +44,14 @@ class PcrsController < ApplicationController
     @pcr = Pcr.find(params[:id])
     @pcr.destroy
     redirect_to pcrs_path
+  end
+
+  private
+
+  def load_collections
+    @apps = App.all
+    @releases = Release.all
+    @statuses = Status.all
+    @severities = Severity.all
   end
 end

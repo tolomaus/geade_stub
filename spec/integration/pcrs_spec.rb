@@ -27,7 +27,10 @@ describe "Pcrs" do
       fill_in('Code', :with => @attr[:code])
       fill_in('Summary', :with => @attr[:summary])
       fill_in('Description', :with => @attr[:description])
-      fill_in('App', :with => @attr[:app_id])
+      select("Security Review", :from => "App")
+      select("Q1.1 January 2012", :from => "Release")
+      select(@attr[:status_id], :from => "Status")
+      select(@attr[:severity_id], :from => "Severity")
 
       expect{
         click_on("Create Pcr")
