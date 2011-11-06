@@ -1,5 +1,5 @@
 .container {
-  width: 710px;
+  /*width: 710px;*/
 }
 
 body {
@@ -113,6 +113,28 @@ footer nav {
 }
 
 /* User show page */
+table.pcrs {
+	border-width: 3px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+table.pcrs th {
+	border-width: 1px;
+	padding: 5px;
+	border-style: dotted;
+	border-color: gray;
+	background-color: white;
+}
+table.pcrs td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: dotted;
+	border-color: gray;
+	background-color: white;
+}
 
 table.profile {
   width: 100%;

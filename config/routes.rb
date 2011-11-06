@@ -3,6 +3,7 @@ GeadeStub::Application.routes.draw do
 
   root :to => 'pages#home' 
 
+  match 'releaseme/pcr_updated' => 'releaseme#pcr_updated'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

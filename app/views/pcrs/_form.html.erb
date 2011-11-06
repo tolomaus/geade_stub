@@ -32,11 +32,11 @@
     <%= f.collection_select(:release_id, @releases, :id, :name, :prompt => 'Select') %>
   </div>
   <div class="field">
-    <%= f.label :status %><br />
+    <%= f.label :status_id %><br />
     <%= f.collection_select(:status_id, @statuses, :id, :description, :prompt => 'Select') %>
   </div>
   <div class="field">
-    <%= f.label :severity %><br />
+    <%= f.label :severity_id %><br />
     <%= f.collection_select(:severity_id, @severities, :id, :description, :prompt => 'Select') %>
   </div>
   <div class="actions">

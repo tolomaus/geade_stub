@@ -15,7 +15,11 @@ describe "Pcrs" do
   end
   describe "'new' page" do
     before(:each) do
-      @attr=Factory.attributes_for(:pcr)
+      @attr=Factory.attributes_for(:pcr_primitive)
+      @app_name=App.first.name
+      @release_name=Release.first.name
+      @status_description=Status.first.description
+      @severity_description=Severity.first.description
     end
     it "should create a new pcr" do
       visit pcrs_path
@@ -27,10 +31,10 @@ describe "Pcrs" do
       fill_in('Code', :with => @attr[:code])
       fill_in('Summary', :with => @attr[:summary])
       fill_in('Description', :with => @attr[:description])
-      select("Security Review", :from => "App")
-      select("Q1.1 January 2012", :from => "Release")
-      select(@attr[:status_id], :from => "Status")
-      select(@attr[:severity_id], :from => "Severity")
+      select(@app_name, :from => "App")
+      select(@release_name, :from => "Release")
+      select(@status_description, :from => "Status")
+      select(@severity_description, :from => "Severity")
 
       expect{
         click_on("Create Pcr")

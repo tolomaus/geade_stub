@@ -76,7 +76,7 @@ describe PcrsController do
     end
     describe "success" do
       before(:each) do
-        @attr = Factory.attributes_for(:pcr_flat)
+        @attr = Factory.attributes_for(:pcr_view)
       end
       it "should create a pcr" do
         expect {

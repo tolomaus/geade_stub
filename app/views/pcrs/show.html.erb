@@ -15,6 +15,26 @@
   <%= @pcr.description %>
 </p>
 
+<p>
+  <b>App:</b>
+  <%= @pcr.app.name %>
+</p>
+
+<p>
+  <b>Release:</b>
+  <%= @pcr.release.name %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @pcr.status.description %>
+</p>
+
+<p>
+  <b>Severity:</b>
+  <%= @pcr.severity.description %>
+</p>
+
 
 <%= link_to 'Edit', edit_pcr_path(@pcr) %> |
 <%= link_to 'Back', pcrs_path %>
