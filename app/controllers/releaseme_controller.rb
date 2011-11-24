@@ -1,5 +1,5 @@
 class ReleasemeController < ApplicationController
-  def pcr_updated
+  def change_request_updated
     Rails.logger.info params
     format.xml  { head :ok }
   end

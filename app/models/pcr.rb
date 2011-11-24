@@ -12,4 +12,6 @@ class Pcr < ActiveRecord::Base
   belongs_to :release
   belongs_to :status
   belongs_to :severity
+  has_many :dependencies, :foreign_key => "child_id",
+                           :dependent => :destroy
 end

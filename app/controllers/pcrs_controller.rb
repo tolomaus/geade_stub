@@ -33,6 +33,8 @@ class PcrsController < ApplicationController
   def update
     @pcr = Pcr.find(params[:id])
     if @pcr.update_attributes(params[:pcr])
+      release_me_service = ReleaseMeService.new
+      release_me_service.change_request_updated @pcr
       redirect_to @pcr, :flash => { :success => "PCR was successfully updated." }
     else
       load_collections

@@ -5,6 +5,10 @@ describe Pcr do
     @pcr = Factory.build(:pcr)
   end
 
+  it "should have a dependencies method" do
+    @pcr.should respond_to(:dependencies)
+  end
+
   it "is valid with proper values" do
     @pcr.should be_valid
   end

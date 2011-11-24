@@ -31,4 +31,5 @@ end
 
 gem 'execjs'
 gem 'therubyracer'
+gem 'savon' # SOAP web services
 
