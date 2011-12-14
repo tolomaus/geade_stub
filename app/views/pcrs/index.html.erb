@@ -1,0 +1,37 @@
+<h1>Listing PCRs</h1>
+
+<table class=pcrs>
+  <tr>
+    <th>Code</th>
+    <th>Summary</th>
+    <th>Description</th>
+    <th>App</th>
+    <th>Release</th>
+    <th>Status</th>
+    <th>Severity</th>
+    <th>Parents</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @pcrs.each do |pcr| %>
+  <tr>
+    <td><%= pcr.code %></td>
+    <td><%= pcr.summary %></td>
+    <td><%= pcr.description %></td>
+    <td><%= pcr.app.name %></td>
+    <td><%= pcr.release.name %></td>
+    <td><%= pcr.status.description %></td>
+    <td><%= pcr.severity.description %></td>
+    <td><%= link_to pluralize(pcr.parents.count, "parent" ), parents_pcr_path(pcr) %></td>
+    <td><%= link_to 'Show', pcr %></td>
+    <td><%= link_to 'Edit', edit_pcr_path(pcr) %></td>
+    <td><%= link_to 'Destroy', pcr, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New PCR', new_pcr_path %>

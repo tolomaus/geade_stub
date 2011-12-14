@@ -1,0 +1,5 @@
+<%= form_for @pcr.dependencies.build(:parent_id => @other_pcr.id), :remote => true do |f| %>
+    <div><%= f.hidden_field :child_id %></div>
+    <div><%= f.hidden_field :parent_id %></div>
+  <div class="actions"><%= f.submit "Create" %></div>
+<% end %>

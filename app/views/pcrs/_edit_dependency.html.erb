@@ -1,0 +1,6 @@
+<%= @pcr.parents.include?(@other_pcr) %>
+<% if @pcr.parents.include?(@other_pcr) %>
+  <%= render 'pcrs/destroy_dependency' %>
+<% else %>
+  <%= render 'pcrs/create_dependency' %>
+<% end %>

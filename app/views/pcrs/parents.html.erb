@@ -1,0 +1,37 @@
+<h1>Dependencies of <%= @pcr.code %> - <%= @pcr.summary %>:</h1>
+
+<table class=pcrs>
+  <tr>
+    <th>Code</th>
+    <th>Summary</th>
+    <th>Description</th>
+    <th>App</th>
+    <th>Release</th>
+    <th>Status</th>
+    <th>Severity</th>
+    <th>Parents</th>
+    <th>Dependency</th>
+  </tr>
+
+<% @pcrs.each do |pcr| %>
+  <tr>
+    <td><%= pcr.code %></td>
+    <td><%= pcr.summary %></td>
+    <td><%= pcr.description %></td>
+    <td><%= pcr.app.name %></td>
+    <td><%= pcr.release.name %></td>
+    <td><%= pcr.status.description %></td>
+    <td><%= pcr.severity.description %></td>
+    <td><%= link_to pluralize(pcr.parents.count, "parent" ), parents_pcr_path(pcr) %></td>
+    <td>
+      <div id="edit_dependency_<%= pcr.id %>_form">
+        <%	@other_pcr = pcr %>
+        <%= render 'edit_dependency' %>
+      </div>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+

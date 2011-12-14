@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Code:</b>
+  <%= @pcr.code %>
+</p>
+
+<p>
+  <b>Summary:</b>
+  <%= @pcr.summary %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @pcr.description %>
+</p>
+
+<p>
+  <b>App:</b>
+  <%= @pcr.app.name %>
+</p>
+
+<p>
+  <b>Release:</b>
+  <%= @pcr.release.name %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @pcr.status.description %>
+</p>
+
+<p>
+  <b>Severity:</b>
+  <%= @pcr.severity.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_pcr_path(@pcr) %> |
+<%= link_to 'Back', pcrs_path %>

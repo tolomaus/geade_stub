@@ -1,0 +1,3 @@
+<%= form_for @pcr.dependencies.find_by_parent_id(@other_pcr),:html => { :method => :delete }, :remote => true do |f| %>
+  <div class="actions"><%= f.submit "Destroy" %></div>
+<% end %>

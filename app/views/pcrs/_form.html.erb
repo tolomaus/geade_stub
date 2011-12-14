@@ -1,0 +1,45 @@
+<%= form_for(@pcr) do |f| %>
+  <% if @pcr.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pcr.errors.count, "error") %> prohibited this PCR from being saved:</h2>
+
+      <ul>
+      <% @pcr.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :code %><br />
+    <%= f.text_field :code %>
+  </div>
+  <div class="field">
+    <%= f.label :summary %><br />
+    <%= f.text_field :summary %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="field">
+    <%= f.label :app_id %><br />
+    <%= f.collection_select(:app_id, @apps, :id, :name, :prompt => 'Select') %>
+  </div>
+  <div class="field">
+    <%= f.label :release_id %><br />
+    <%= f.collection_select(:release_id, @releases, :id, :name, :prompt => 'Select') %>
+  </div>
+  <div class="field">
+    <%= f.label :status_id %><br />
+    <%= f.collection_select(:status_id, @statuses, :id, :description, :prompt => 'Select') %>
+  </div>
+  <div class="field">
+    <%= f.label :severity_id %><br />
+    <%= f.collection_select(:severity_id, @severities, :id, :description, :prompt => 'Select') %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
