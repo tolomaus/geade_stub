@@ -36,15 +36,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pcrs_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/pcrs_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="2" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="update_dependency.js.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/dependencies/update_dependency.js.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,10 +54,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.87931037">
+            <state line="31" column="16" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dependencies_controller_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/dependencies_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="34" selection-start="1306" selection-end="1306" vertical-scroll-proportion="1.6487069">
               <folding />
             </state>
           </provider>
@@ -1320,13 +1320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/dependencies_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="34" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="77" selection-start="233" selection-end="267" vertical-scroll-proportion="0.0">
@@ -1420,7 +1413,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.87931037">
+        <state line="31" column="16" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/dependencies_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="34" selection-start="1306" selection-end="1306" vertical-scroll-proportion="1.6487069">
           <folding />
         </state>
       </provider>
