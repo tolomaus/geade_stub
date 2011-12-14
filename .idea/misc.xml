@@ -6,6 +6,10 @@
   <component name="ProjectResources">
     <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="ruby-1.9.2-p290" project-jdk-type="RUBY_SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="RVM: ruby-1.9.2-p290 [geade_stub]" project-jdk-type="RUBY_SDK" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
 </project>
 

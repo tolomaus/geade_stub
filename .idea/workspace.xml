@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6bd1b3fb-d8a1-4ba6-988b-e6d651623911" name="Default" comment="" />
+=======
+    <list default="true" id="6bd1b3fb-d8a1-4ba6-988b-e6d651623911" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/release_me_service.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/geade_stub.iml" afterPath="$PROJECT_DIR$/.idea/geade_stub.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pcrs_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pcrs_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/releaseme_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/releaseme_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/pcr.rb" afterPath="$PROJECT_DIR$/app/models/pcr.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/pcr_spec.rb" afterPath="$PROJECT_DIR$/spec/models/pcr_spec.rb" />
+    </list>
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
     <ignored path="geade_stub.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,6 +43,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="dependencies_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/dependencies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,78 +57,140 @@
         <entry file="file://$PROJECT_DIR$/app/views/dependencies/update_dependency.js.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="70" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="25" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="parents.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pcrs/parents.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="36" column="0" selection-start="859" selection-end="859" vertical-scroll-proportion="-12.269231">
+=======
+      <file leaf-file-name="20111124211808_create_dependencies.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20111124211808_create_dependencies.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="16" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="dependency.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/dependency.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="20" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="dependencies_controller_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/controllers/dependencies_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="45" column="34" selection-start="1306" selection-end="1306" vertical-scroll-proportion="1.6487069">
+=======
+      <file leaf-file-name="dependency_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/dependency_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="32" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="_create_dependency.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pcrs/_create_dependency.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="10" selection-start="252" selection-end="252" vertical-scroll-proportion="-3.2692308">
+=======
+      <file leaf-file-name="test_seeds.rake" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/test_seeds.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="_destroy_dependency.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pcrs/_destroy_dependency.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="44" selection-start="164" selection-end="164" vertical-scroll-proportion="-0.65384614">
+=======
+      <file leaf-file-name="factory.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p290@geade_stub/gems/factory_girl-1.3.3/lib/factory_girl/factory.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="251" column="11" selection-start="7938" selection-end="7938" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="_edit_dependency.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pcrs/_edit_dependency.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="19" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+=======
+      <file leaf-file-name="test.log" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/test.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="472" column="0" selection-start="51221" selection-end="51221" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pcrs/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.730769">
+=======
+      <file leaf-file-name="pcr_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/pcr_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="40" selection-start="168" selection-end="180" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pcrs/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+=======
+      <file leaf-file-name="pcr.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/pcr.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="27" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <folding />
             </state>
           </provider>
@@ -133,13 +212,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Rails console: geade_stub" root0="SKIP_HIGHLIGHTING" />
+<<<<<<< HEAD
     <setting file="mock:///Rails console: geade_stub" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Rails console: geade_stub" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Rails console: geade_stub" root0="SKIP_HIGHLIGHTING" />
+=======
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/spec/integration/pcrs_spec.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/dependencies_controller_spec.rb" />
@@ -156,6 +239,24 @@
         <option value="$PROJECT_DIR$/app/views/pcrs/_edit_dependency.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pcrs/parents.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+=======
+        <option value="$PROJECT_DIR$/spec/integration/pcrs_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/pcrs/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.css" />
+        <option value="$PROJECT_DIR$/app/views/pcrs/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pcrs/_form.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/releaseme_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/pcrs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/services/release_me_service.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20111124211808_create_dependencies.rb" />
+        <option value="$PROJECT_DIR$/spec/models/pcr_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/pcr.rb" />
+        <option value="$PROJECT_DIR$/app/models/dependency.rb" />
+        <option value="$PROJECT_DIR$/spec/models/dependency_spec.rb" />
+        <option value="/Rails geade_stub: development" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
       </list>
     </option>
   </component>
@@ -182,7 +283,11 @@
       </profile-state>
     </entry>
   </component>
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -208,7 +313,10 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Favorites" />
+=======
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -377,6 +485,101 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -395,6 +598,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -416,28 +640,13 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geade_stub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geade_stub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
             <PATH_ELEMENT>
               <option name="myItemId" value="pcrs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -457,7 +666,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="pcrs" />
+=======
+              <option name="myItemId" value="pages" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="dependencies" />
+=======
+              <option name="myItemId" value="layouts" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,7 +764,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="helpers" />
+=======
+              <option name="myItemId" value="controllers" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,12 +786,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="controllers" />
+=======
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geade_stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="Favorites" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
       <pane id="RailsProjectView">
         <subPane>
           <PATH>
@@ -731,6 +1005,7 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
     </panes>
   </component>
@@ -755,12 +1030,67 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Sites\geade_stub\app\views\pcrs" />
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Database.TableEditor.Splitter" value="0.9" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="recentsLimit" value="5" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/spec/smoke" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Rake.spec">
+=======
+  <component name="RunManager" selected="Query Language Console.Default">
+    <configuration default="false" name="pcrs_controller_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="geade_stub" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/controllers/pcrs_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
     <configuration default="false" name="pages_controller_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="geade_stub" />
@@ -866,6 +1196,7 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="geade_stub" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -890,6 +1221,8 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+=======
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1073,9 +1406,13 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+<<<<<<< HEAD
       <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+=======
+      <RunnerSettings RunnerId="RubyRunner" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -1208,11 +1545,19 @@
       <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="4" class="java.lang.String" itemvalue="Rake.test" />
       <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
+<<<<<<< HEAD
       <item index="6" class="java.lang.String" itemvalue="RSpec.pages_controller_spec" />
       <item index="7" class="java.lang.String" itemvalue="RSpec.pcrs_spec" />
       <item index="8" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
       <item index="9" class="java.lang.String" itemvalue="Query Language Console.Default" />
       <item index="10" class="java.lang.String" itemvalue="Rake.routes" />
+=======
+      <item index="6" class="java.lang.String" itemvalue="RSpec.pcrs_controller_spec" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.pages_controller_spec" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.pcrs_spec" />
+      <item index="9" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
+      <item index="10" class="java.lang.String" itemvalue="Query Language Console.Default" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -1231,7 +1576,11 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+<<<<<<< HEAD
     <configuration useDefault="true">C:\Documents and Settings\f01997\Application Data\Subversion</configuration>
+=======
+    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -1243,6 +1592,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="0" width="1280" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -1265,6 +1615,29 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+=======
+    <frame x="0" y="0" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17987151" sideWeight="0.65413535" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17344753" sideWeight="0.23523094" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17344753" sideWeight="0.4103115" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34586465" sideWeight="0.9892589" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919441" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957035" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -1313,6 +1686,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/spec/integration/pcrs_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="122" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
@@ -1337,10 +1711,31 @@
     <entry file="file://$PROJECT_DIR$/app/models/pcr.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="2" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/rails">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs19/file.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="402" column="125" selection-start="14659" selection-end="14659" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/release_me_service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/models/app.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1358,52 +1753,104 @@
     <entry file="file://$PROJECT_DIR$/app/views/pcrs/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/app/controllers/pcrs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="66" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/releaseme_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="30" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="25" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/controllers/dependencies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="16" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/spec/models/pcr_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="40" selection-start="168" selection-end="180" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/dependencies/update_dependency.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="70" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/app/models/pcr.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/pcrs/_create_dependency.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="10" selection-start="252" selection-end="252" vertical-scroll-proportion="-3.2692308">
+=======
+    <entry file="file://$PROJECT_DIR$/app/models/dependency.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/pcrs/_destroy_dependency.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="44" selection-start="164" selection-end="164" vertical-scroll-proportion="-0.65384614">
+=======
+    <entry file="file://$PROJECT_DIR$/log/test.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="472" column="0" selection-start="51221" selection-end="51221" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/pcrs/_edit_dependency.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="19" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p290@geade_stub/gems/factory_girl-1.3.3/lib/factory_girl/factory.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="251" column="11" selection-start="7938" selection-end="7938" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/pcrs/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.730769">
+=======
+    <entry file="file://$PROJECT_DIR$/db/migrate/20111124211808_create_dependencies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/pcrs/parents.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="859" selection-end="859" vertical-scroll-proportion="-12.269231">
@@ -1414,15 +1861,31 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="16" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+=======
+    <entry file="dbDummy://dbElement:/f0b20624/462fe5b4-d4c9-4c58-9eed-bd3dc32c23e6/..DEPENDENCIES">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/dependency_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/spec/controllers/dependencies_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="34" selection-start="1306" selection-end="1306" vertical-scroll-proportion="1.6487069">
           <folding />
         </state>
+=======
+    <entry file="file://$PROJECT_DIR$/lib/tasks/test_seeds.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+>>>>>>> 8e26949ec40bc9dcb3944902634cdcd776752fdf
       </provider>
     </entry>
   </component>
