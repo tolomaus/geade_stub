@@ -1,0 +1,14 @@
+development:
+  host: 0.0.0.0
+  port: 3001
+  use_ssl: false
+
+test:
+  host: 0.0.0.0
+  port: 3001
+  use_ssl: false
+
+production:
+  host: ec2-50-16-13-51.compute-1.amazonaws.com
+  port: 80
+  use_ssl: false

@@ -55,22 +55,22 @@ describe PcrsController do
     end
   end
 
-  describe "POST 'update_dependency'" do
+  describe "POST 'create'" do
     describe "failure" do
       before(:each) do
         @attr = Factory.attributes_for(:pcr).except(:code)
       end
       it "should be successful" do
-        post :update_dependency, :pcr => @attr
+        post :create, :pcr => @attr
         response.should be_success
       end
       it "should not update_dependency a pcr" do
         expect {
-          post :update_dependency, :pcr => @attr
+          post :create, :pcr => @attr
         }.not_to change(Pcr, :count)
       end
       it "should render the 'new' page" do
-        post :update_dependency, :pcr => @attr
+        post :create, :pcr => @attr
         response.should render_template 'new'
       end
     end
@@ -78,13 +78,13 @@ describe PcrsController do
       before(:each) do
         @attr = Factory.attributes_for(:pcr_view)
       end
-      it "should update_dependency a pcr" do
+      it "should create a pcr" do
         expect {
-          post :update_dependency, :pcr => @attr
+          post :create, :pcr => @attr
         }.to change(Pcr, :count).by(1)
       end
       it "should redirect to the pcr show page" do
-        post :update_dependency, :pcr => @attr
+        post :create, :pcr => @attr
         response.should redirect_to(pcr_path(assigns(:pcr)))
       end
     end
