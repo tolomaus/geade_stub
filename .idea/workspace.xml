@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="365d3399-45a3-4f67-9c27-e20b3e61b968" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20111025205236_change_app_release_id_pcrs.rb" afterPath="$PROJECT_DIR$/db/migrate/20111025205236_change_app_release_id_pcrs.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20111101120456_change_status_severity_pcrs.rb" afterPath="$PROJECT_DIR$/db/migrate/20111101120456_change_status_severity_pcrs.rb" />
     </list>
     <ignored path="geade_stub.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,10 +47,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20111025205236_change_app_release_id_pcrs.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20111025205236_change_app_release_id_pcrs.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20111025205236_change_app_release_id_pcrs.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="217" selection-end="217" vertical-scroll-proportion="0.18181819">
+            <state line="6" column="36" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20111029143836_change_pcr_id_to_code_pcrs.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20111029143836_change_pcr_id_to_code_pcrs.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20111101085635_create_statuses.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20111101085635_create_statuses.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20111101120246_create_severities.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20111101120246_create_severities.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20111101120456_change_status_severity_pcrs.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20111101120456_change_status_severity_pcrs.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="14" selection-start="288" selection-end="288" vertical-scroll-proportion="0.26373628">
               <folding />
             </state>
           </provider>
@@ -78,6 +114,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.2-p290@global/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/schema_statements.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20111025205236_change_app_release_id_pcrs.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20111101120456_change_status_severity_pcrs.rb" />
       </list>
     </option>
   </component>
@@ -431,7 +468,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20111025205236_change_app_release_id_pcrs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="217" selection-end="217" vertical-scroll-proportion="0.18181819">
+        <state line="6" column="36" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20111029143836_change_pcr_id_to_code_pcrs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20111101085635_create_statuses.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20111101120246_create_severities.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20111101120456_change_status_severity_pcrs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="288" selection-end="288" vertical-scroll-proportion="0.26373628">
           <folding />
         </state>
       </provider>
