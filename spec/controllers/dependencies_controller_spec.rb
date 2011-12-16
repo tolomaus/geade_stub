@@ -11,14 +11,14 @@ describe DependenciesController do
 
     it "should update_dependency a dependency" do
       lambda do
-        post :update_dependency, :dependency => { :child_id => @pcr, :parent_id => @parent_pcr }
+        post :create, :dependency => { :child_id => @pcr, :parent_id => @parent_pcr }
         response.should be_redirect
       end.should change(Dependency, :count).by(1)
     end
 
     it "should update_dependency a dependency using Ajax" do
       lambda do
-        xhr :post, :update_dependency, :dependency => { :child_id => @pcr, :parent_id => @parent_pcr }
+        xhr :post, :create, :dependency => { :child_id => @pcr, :parent_id => @parent_pcr }
         response.should be_success
       end.should change(Dependency, :count).by(1)
     end
