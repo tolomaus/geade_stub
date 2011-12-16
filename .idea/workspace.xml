@@ -86,7 +86,16 @@
       <file leaf-file-name="20111101120456_change_status_severity_pcrs.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20111101120456_change_status_severity_pcrs.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="288" selection-end="288" vertical-scroll-proportion="0.26373628">
+            <state line="7" column="27" selection-start="263" selection-end="263" vertical-scroll-proportion="0.23076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20111124211808_create_dependencies.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20111124211808_create_dependencies.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -494,9 +503,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20111124211808_create_dependencies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20111101120456_change_status_severity_pcrs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="288" selection-end="288" vertical-scroll-proportion="0.26373628">
+        <state line="7" column="27" selection-start="263" selection-end="263" vertical-scroll-proportion="0.23076923">
           <folding />
         </state>
       </provider>
