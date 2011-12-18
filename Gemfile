@@ -22,17 +22,17 @@ end
 
 group :test do
   gem 'sqlite3'
-  gem 'turn', :require => false
   gem 'rspec-rails', '2.6.1'
+  gem 'turn', :require => false
   gem 'capybara'
   gem 'factory_girl_rails', '1.0'
 end
 
-group :test do
+group :production do
   gem 'pg'
 end
 
 gem 'execjs'
-#gem 'therubyracer'
+gem 'therubyracer'
 #gem 'savon' # SOAP web services
 
