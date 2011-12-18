@@ -20,9 +20,9 @@ class ReleaseMeService
 
   private
     def fetch_url(path)
-      http = Net::HTTP.new(::Rails.application.config.release_me_server.host, ::Rails.application.config.release_me_server.port)
+      http = Net::HTTP.new(RELEASEME_CONFIG['host'], RELEASEME_CONFIG['port'])
       if ::Rails.application.config.release_me_server.use_ssl
-        http.use_ssl = ::Rails.application.config.release_me_server.use_ssl
+        http.use_ssl = RELEASEME_CONFIG['use_ssl'] == 'true' ? true : false
         http.verify_mode = OpenSSL::SSL::VERIFY_PEER
         http.ca_file = "/soft/releaseme/home/ssl/cert_bundle.crt"
       end
