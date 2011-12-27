@@ -1,4 +1,4 @@
-<%= @pcr.parents.include?(@other_pcr) %>
+<%= @pcr.parents.include?(@other_pcr) ? "YES" : "NO" %>
 <% if @pcr.parents.include?(@other_pcr) %>
   <%= render 'pcrs/destroy_dependency' %>
 <% else %>
