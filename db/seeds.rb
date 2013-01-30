@@ -24,6 +24,7 @@ release = Release.find_or_create_by_code(:code => "Q1.1-2012", :name => "Q1.1 Ja
 release = Release.find_or_create_by_code(:code => "Q1.2-2012", :name => "Q1.2 February 2012")
 release = Release.find_or_create_by_code(:code => "Q1.3-2012", :name => "Q1.3 March 2012")
 release = Release.find_or_create_by_code(:code => "Q2.1-2012", :name => "Q2.1 April 2012")
+release = Release.find_or_create_by_code(:code => "Q2.2-2012", :name => "Q2.1 May 2012")
 
 
 
